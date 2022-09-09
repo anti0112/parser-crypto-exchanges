@@ -1,7 +1,7 @@
 import asyncio
 import aiohttp
 import json
-from utils import get_list_of_data
+from tools.utils import get_list_of_data
 import time
 
 url = 'https://p2p.binance.com/bapi/c2c/v2/friendly/c2c/adv/search'

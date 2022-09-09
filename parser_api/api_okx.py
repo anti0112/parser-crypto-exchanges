@@ -1,8 +1,8 @@
 import asyncio
 import aiohttp
 import json
-from utils import get_url_for_okx
-from const import headers_okx
+from tools.utils import get_url_for_okx
+from tools.const import headers_okx
 
 pay =['BUY', 'SELL']
 list_buy, list_sell = get_url_for_okx()

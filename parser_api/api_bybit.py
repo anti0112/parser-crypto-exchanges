@@ -1,7 +1,7 @@
 import asyncio
 import aiohttp
 import json
-from utils import get_url_for_bybit
+from tools.utils import get_url_for_bybit
 
 
 pay = ['BUY', 'SELL']

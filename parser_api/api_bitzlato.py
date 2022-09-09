@@ -1,7 +1,7 @@
 import asyncio
 import aiohttp
 import json
-from utils import get_url_for_bitzlato
+from tools.utils import get_url_for_bitzlato
 #from const import headers
 
 coins = ['USDT', 'BTC', 'USDC', "DAI", 'ETH']
